@@ -61,15 +61,10 @@ li:hover {
 /* pagina contacto*/
 
 .grilla__contacto {
-    height: 100vh;
     display: grid;
-    grid-template-areas: "navegacion3" "contenido3" "pie3";
+    grid-template-areas: "contenido3" "pie3";
     grid-template-columns: 1fr;
-    grid-template-rows: 5% auto 10%;
-}
-
-.contenedornav {
-    grid-area: navegacion3;
+    grid-template-rows: 90% 10%;
 }
 
 .contenido__contacto {
