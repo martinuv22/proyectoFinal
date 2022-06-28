@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 /*mapa*/
+=======
+>>>>>>> 0e33ddb97ac0d01a2794ec70048d95fcfd5e3437
 /*Reset y atributos para todas las paginas*/
 * {
   padding: 0%;
@@ -6,6 +9,7 @@
   box-sizing: border-box; }
 
 body {
+<<<<<<< HEAD
   background-color: #000000eb;
   color: #f3ebeb; }
 
@@ -14,11 +18,19 @@ h1 {
 
 h2 {
   color: #ffd700; }
+=======
+  background-color: black;
+  color: white; }
+
+h1 {
+  color: gold; }
+>>>>>>> 0e33ddb97ac0d01a2794ec70048d95fcfd5e3437
 
 li {
   transition: background 3s; }
 
 li:hover {
+<<<<<<< HEAD
   background: #ffd700; }
 
 /* media queries para todas las paginas exepto para algunos elementos */
@@ -67,6 +79,13 @@ li:hover {
 
 .div__imagen {
   margin: 2rem;
+=======
+  background-color: gold; }
+
+/*para index*/
+.div__imagen {
+  margin: auto;
+>>>>>>> 0e33ddb97ac0d01a2794ec70048d95fcfd5e3437
   border-radius: 20%;
   object-fit: cover;
   width: 47rem;
@@ -76,6 +95,7 @@ li:hover {
     width: 55rem;
     height: 31rem; }
 
+<<<<<<< HEAD
 @media screen and (max-width: 425px) {
   .div__imagen {
     margin: 2%;
@@ -158,6 +178,21 @@ li:hover {
 .titulo_dondecomprar {
   font-size: medium;
   color: #8713f5; }
+=======
+/*pagina info*/
+.frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center; }
+  .frame__frase {
+    color: gold; }
+
+/* Pagina donde comprar carrousel*/
+.carousel__dondecomprar img {
+  height: 90vh; }
+>>>>>>> 0e33ddb97ac0d01a2794ec70048d95fcfd5e3437
 
 /*pagina contacto*/
 .grilla__contacto {
@@ -170,6 +205,7 @@ li:hover {
   grid-area: contenido3; }
 
 .contenido__titulo {
+<<<<<<< HEAD
   color: #0303f0;
   font-family: 'Kodchasan', sans-serif; }
 
@@ -180,10 +216,22 @@ li:hover {
   padding: 2rem 30%;
   font-family: 'Poller One', cursive;
   text-align: center;
+=======
+  color: #0606dd;
+  font-family: 'Kodchasan', sans-serif; }
+
+.contenido__sectionf {
+  color: #0606dd;
+  padding: 2rem 30%;
+  font-family: 'Poller One', cursive;
+  text-align: center;
+  color: goldenrod;
+>>>>>>> 0e33ddb97ac0d01a2794ec70048d95fcfd5e3437
   display: flex;
   flex-direction: column;
   height: 40rem; }
 
+<<<<<<< HEAD
 .contenido__boton, .boton__info, .boton__recomendacion {
   padding: 1.2rem;
   margin-top: 2rem;
@@ -194,10 +242,23 @@ li:hover {
   border: solid 0.5rem brown;
   transition: padding 3s; }
   .contenido__boton:hover, .boton__info:hover, .boton__recomendacion:hover {
+=======
+.contenido__boton {
+  padding: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10%;
+  color: #0606dd;
+  background-color: goldenrod;
+  border: solid 0.5rem brown;
+  transition: padding 3s; }
+  .contenido__boton:hover {
+>>>>>>> 0e33ddb97ac0d01a2794ec70048d95fcfd5e3437
     padding: 2rem; }
 
 .pie__contacto {
   grid-area: pie3; }
+<<<<<<< HEAD
 
 /*paginas recomendaciones*/
 .grilla_recomendacion {
@@ -277,3 +338,5 @@ li:hover {
 
 .pie__supcripcion {
   grid-area: pie4; }
+=======
+>>>>>>> 0e33ddb97ac0d01a2794ec70048d95fcfd5e3437

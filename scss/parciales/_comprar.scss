@@ -1,5 +1,6 @@
 /* Pagina donde comprar carrousel*/
 
+<<<<<<< HEAD
 .carousel__dondecomprar img {
     height: 90vh;
     width: 100%;
@@ -27,4 +28,10 @@
 .titulo_dondecomprar {
     font-size: medium;
     color: map-get($colores, "suscripcion");
+=======
+.carousel__dondecomprar {
+    & img {
+        height: 90vh;
+    }
+>>>>>>> 0e33ddb97ac0d01a2794ec70048d95fcfd5e3437
 }

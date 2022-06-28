@@ -1,5 +1,6 @@
 /*pagina info*/
 
+<<<<<<< HEAD
 .main__info {
     display: flex;
     flex-direction: column;
@@ -54,4 +55,15 @@
 
 .boton__info {
     @extend .contenido__boton
+=======
+.frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    &__frase {
+        color: gold;
+    }
+>>>>>>> 0e33ddb97ac0d01a2794ec70048d95fcfd5e3437
 }
